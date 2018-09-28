@@ -1,0 +1,5 @@
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Entity\bin\Debug\Entity.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Entity\bin\Debug\Entity.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Entity\obj\Debug\Entity.csprojResolveAssemblyReference.cache
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Entity\obj\Debug\Entity.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Entity\obj\Debug\Entity.pdb

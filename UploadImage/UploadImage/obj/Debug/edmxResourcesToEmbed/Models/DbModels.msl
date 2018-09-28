@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ImageLibraryModelStoreContainer" CdmEntityContainer="ImageLibraryEntities">
+    <EntitySetMapping Name="ImageLibs">
+      <EntityTypeMapping TypeName="ImageLibraryModel.ImageLib">
+        <MappingFragment StoreEntitySet="ImageLib">
+          <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+          <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,5 @@
+c:\users\m1046977\documents\visual studio 2017\Projects\Except3\Except3\bin\Debug\Except3.exe.config
+c:\users\m1046977\documents\visual studio 2017\Projects\Except3\Except3\bin\Debug\Except3.exe
+c:\users\m1046977\documents\visual studio 2017\Projects\Except3\Except3\bin\Debug\Except3.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\Except3\Except3\obj\Debug\Except3.exe
+c:\users\m1046977\documents\visual studio 2017\Projects\Except3\Except3\obj\Debug\Except3.pdb

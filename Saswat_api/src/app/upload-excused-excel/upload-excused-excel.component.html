@@ -1,0 +1,23 @@
+
+
+    <div class = "container">
+      <div class = "row"> 
+      <div class = "col-lg-3 col-md-3 col-sm-3"></div> 
+      <div class = "col-lg-6 col-md-6 col-sm-6">
+        <h3 class="heading">Please upload Excused records Excel File..</h3>
+        <br> <br>
+      <input style type="file" #fileuploader ngf-pattern="'.xlsx'" accept="xlsx" class="btns" (change)="onFileChange($event)">
+      <button type="file" [disabled]="disableUpload !== 1" class="btn" (click)="uploadexcusedfile()">Upload</button> 
+      </div>
+      <div class = "col-lg-3 col-md-3 col-sm-3"></div>
+      </div>
+      </div> 
+  
+  
+
+  
+  
+  
+  
+  
+  

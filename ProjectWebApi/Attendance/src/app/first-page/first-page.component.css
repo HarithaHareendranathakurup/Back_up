@@ -1,0 +1,68 @@
+@import"~bootstrap/dist/css/bootstrap.min.css";
+@import"~font-awesome/css/font-awesome.min.css"; 
+.my-grid-tile {
+    margin-top: 20px;
+    padding-top: -50px;
+    } 
+.btn{
+    color:#7B5151;
+}
+.id{
+    margin-top: 70px;
+    padding-top:-60px;
+}
+.card{
+    width: 200px;
+
+}
+.bg{
+    background-color:cadetblue;
+}
+/* .card-header
+{
+    background-color:grey;
+    height: 150px;
+} */
+
+.card-body
+{
+    /* background-color:lightgrey; */
+}
+.maincontainer
+{
+position: relative;
+width:250px;
+height: 320px;
+background-color: green;
+}
+.thecard
+{
+position:absolute;
+width: 100px;
+height: 100px;
+transform-style: preserve-3d;
+transition:all 0.5s ease;
+background: yellow;
+} 
+/* .thecard:hover{
+    transform:rotateY(180deg);
+}
+.thefront
+{
+position: absolute;
+width:100%;
+height:100%;
+backface-visibility: hidden;
+background: yellow;
+color:darkgreen;
+} 
+.theback
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    backface-visibility: hidden;
+    background: black;
+    color:blue;
+    transform:rotateY(180deg);
+} */

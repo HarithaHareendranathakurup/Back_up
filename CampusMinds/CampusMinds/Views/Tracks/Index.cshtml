@@ -1,0 +1,52 @@
+﻿@model IEnumerable<CampusMinds.Models.Tracks>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Trackid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TrackName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RoomNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LeadName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Trackid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TrackName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RoomNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LeadName)
+        </td>
+
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Trackid }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Trackid }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Trackid })
+        </td>
+    </tr>
+}
+
+</table>

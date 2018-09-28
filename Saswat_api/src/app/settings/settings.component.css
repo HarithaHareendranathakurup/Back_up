@@ -1,0 +1,110 @@
+div{
+    margin-left: 0px;
+    margin-top: 100px;
+}
+form{
+    width: 85%;
+    margin-left: 50px;
+}
+.forms
+{
+    width:100px;
+}
+table{
+    width: 80%;
+    margin-left: 190px;
+     }
+    .tabs
+    {
+        margin-top: 80px;
+    }
+    .group
+    {
+        width: 100%;
+    }
+    /* body {
+        background: #F17563;
+        font-family: Open Sans;
+        font-size: 50px;
+          color: #222;
+    } */
+
+    h2{
+        text-align: center;
+    }
+    
+    .containers
+    {
+        text-align: center;
+        align-content: center;
+    }
+    .col-25
+    {
+        width:25%;
+    }
+
+    .col-75
+    {
+        width:75%;
+    }
+    
+    @media screen and (max-width:600px)
+    {
+        .col-25,.col-75
+        {
+            width :50%;
+            /* margin-top:0; */
+        }
+        
+    }
+    body
+    {
+        margin-top:40px;
+        background-color:#D0DCDF;
+        align-content: center;
+        text-align: center;
+    }
+    .row
+    {
+        margin-top:95px;
+        /* margin-bottom: 10px; */
+        height:20px;
+       
+       
+    }
+    .btn
+    {
+        align-content: center;
+        text-align: center;
+        background-color: rgb(10,10,56);
+    }
+    .but
+    {
+         display: flex;
+         justify-content: center;
+         width:150px;
+         background-color: rgb(10,10,56);
+         margin-left:50%;
+    }
+    .butt
+    {
+        width:150px;
+        margin-left:50%;
+        background-color: rgb(10,10,56);
+    }
+    .but,.butt{
+        display: inline-block;
+    }
+    .title
+    {
+        font-size: 25px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    @media screen and (max-width:600px)
+    {
+       .but, .butt{
+            width:100px;
+            margin-left:35%;
+        }
+    }

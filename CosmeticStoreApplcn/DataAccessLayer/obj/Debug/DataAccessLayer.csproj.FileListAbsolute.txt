@@ -1,0 +1,12 @@
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\bin\Debug\CosmeticEntities.dll
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\bin\Debug\CosmeticEntities.pdb
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\bin\Debug\CosmeticEntities.dll.config
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

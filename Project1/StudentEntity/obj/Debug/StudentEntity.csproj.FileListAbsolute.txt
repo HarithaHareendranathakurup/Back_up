@@ -1,0 +1,8 @@
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\StudentEntity\bin\Debug\StudentEntity.exe.config
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\StudentEntity\bin\Debug\StudentEntity.exe
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\StudentEntity\bin\Debug\StudentEntity.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\StudentEntity\bin\Debug\BusinessLogic.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\StudentEntity\bin\Debug\BusinessLogic.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\StudentEntity\obj\Debug\StudentEntity.exe
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\StudentEntity\obj\Debug\StudentEntity.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\StudentEntity\obj\Debug\StudentEntity.csprojResolveAssemblyReference.cache

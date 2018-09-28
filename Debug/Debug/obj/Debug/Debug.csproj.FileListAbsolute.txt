@@ -1,0 +1,5 @@
+c:\users\m1046977\documents\visual studio 2017\Projects\Debug\Debug\bin\Debug\Debug.exe.config
+c:\users\m1046977\documents\visual studio 2017\Projects\Debug\Debug\bin\Debug\Debug.exe
+c:\users\m1046977\documents\visual studio 2017\Projects\Debug\Debug\bin\Debug\Debug.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\Debug\Debug\obj\Debug\Debug.exe
+c:\users\m1046977\documents\visual studio 2017\Projects\Debug\Debug\obj\Debug\Debug.pdb

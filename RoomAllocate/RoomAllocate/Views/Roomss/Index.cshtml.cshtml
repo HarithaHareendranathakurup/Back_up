@@ -1,0 +1,45 @@
+﻿@model IEnumerable<RoomAllocate.Models.Rooms>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BlockName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FloorName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.RID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BlockName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FloorName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.RNO }) |
+            @Html.ActionLink("Details", "Details", new { id=item.RNO }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.RNO })
+        </td>
+    </tr>
+}
+
+</table>

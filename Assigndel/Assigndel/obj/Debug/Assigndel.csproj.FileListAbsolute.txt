@@ -1,0 +1,6 @@
+c:\users\m1046977\documents\visual studio 2017\Projects\Assigndel\Assigndel\obj\Debug\Assigndel.csprojResolveAssemblyReference.cache
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Assigndel\Assigndel\bin\Debug\Assigndel.exe.config
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Assigndel\Assigndel\bin\Debug\Assigndel.exe
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Assigndel\Assigndel\bin\Debug\Assigndel.pdb
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Assigndel\Assigndel\obj\Debug\Assigndel.exe
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Assigndel\Assigndel\obj\Debug\Assigndel.pdb

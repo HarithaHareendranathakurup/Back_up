@@ -1,0 +1,48 @@
+ 
+<body>
+<form #settingForm=ngForm>
+  <div class="row">
+      <div class="col-25">
+    <label class="title"> Daily Time: </label> 
+     </div>
+      <div class="col-75">
+    <input type="time"  class="forms" min=00:01 max=11:59 name = "Time" #Time="ngModel" [(ngModel)]="ms.settingsdetails.DailyTime" required> 
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-25">
+    <label  class="title"> Threshold Count: </label>
+      </div>
+
+     <div class="col-75">
+     <input type="number" class="forms" name = "Thresholdcount" #Thresholdcount="ngModel" [(ngModel)]="ms.settingsdetails.Thresholdcount" required> 
+     </div>
+  </div>
+<pre *ngIf="Time.invalid && Time.touched" style="color: red">This Field Is Required.</pre>
+      <pre *ngIf="Thresholdcount.invalid && Thresholdcount.touched" style="color: red">This Field Is Required.</pre>
+  
+    <div class="row">
+            <div class="col-25">
+     <label  class="title"> Category: </label>
+            </div>
+            <div class="col-75">
+      <input type="text" class="forms" value="C1" disabled>
+      </div>
+        </div>
+        <br> 
+      
+      <div class="but">
+    <button  [disabled]="!settingForm.valid || ms.settingsdetails.Category=='' "class="btn btn-lg btn-block btn-info"  type="submit" (click)="submit(settingForm)">Update</button> 
+        </div>
+        
+       <div class="butt"> 
+    <button class="btn btn-lg btn-block btn-secondary" type="reset" (click)="resetform(settingForm)">Reset</button>
+        </div>
+        
+  
+  <br>
+</form> 
+</body>
+  
+   
+

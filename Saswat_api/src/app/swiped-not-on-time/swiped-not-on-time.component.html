@@ -1,0 +1,201 @@
+  <div class = "body" (window:resize)="checkWidth()" ></div>
+<div class="tabs"> 
+  <mat-tab-group  class="group"(selectedTabChange)="getRepeatDefaulter($event)">
+   <mat-tab label="DEFAULTERS"style="font-size:50px"> 
+      <div class="headings"> SWIPED LATE </div>
+   
+        <mat-grid-list class="id"cols={{cols}} rowHeight="2:2">
+            
+           <ul *ngFor="let mb of ms.mindsList|paginate:{itemsPerPage : 9, currentPage: p}">
+           <mat-grid-tile class="my-grid-tile">  
+       
+             <div class="maincontainer">
+               <a routerLink ="/home/details/{{mb.Mid}}">
+                  <div class="thecard">
+
+                    <div class="thefront">
+                      <h3 class="card-header"><img src="https://firebasestorage.googleapis.com/v0/b/attendance-cc2a0.appspot.com/o/minds.png?alt=media&token=ebbb1edf-46a5-4bf2-ad05-3935e030ae55" style="width:140px;height:120px" align="center"></h3>
+                      <div class="card-body">
+                        <p class="card-text"><b>MID: </b>{{mb.Mid}}</p>
+                        <p class="card-text"><b>NAME: </b>{{mb.FirstName}} {{mb.LastName}}</p>
+                        <p class="card-text"> <b>SWIPE IN: </b>{{mb.Datetime|date:'HH:mm:ss a'}} </p>
+                      </div>
+                    </div>
+
+
+                    <div class="theback">
+                      <div class="card-backbody">
+                        <p class="card-cm"><b>CAMPUS MINDS </b></p>
+                        <p class="card-det"><b>E-MAIL: </b>{{mb.Email}}</p>
+                        <p class="card-det"><b>PHONE NO.: </b>{{mb.PhoneNo}}</p>
+                        <p class="card-det"><b>GENDER: </b>{{mb.Gender}}</p>
+                        <p class="card-det"><b>ROOM NO.: </b>{{mb.ResidenceString}}</p>
+
+                        <p class="card-cm"><b>LEAD DETAILS </b></p>
+                        <p class="card-det"><b>NAME: </b>{{mb.LeadName}}</p>
+                        <p class="card-det"><b>E-MAIL: </b>{{mb.LeadEmail}}</p>
+                        <p class="card-det"><b>PHONE NO.: </b>{{mb.LeadPhoneNo}}</p>
+
+                      </div>
+                    </div>
+
+                    </div>
+                    </a>
+                    </div>
+
+
+                
+           </mat-grid-tile>
+         </ul>
+       </mat-grid-list>  
+
+  
+<pagination-controls (pageChange)="p=$event" class="page"></pagination-controls>
+    </mat-tab>
+
+     <mat-tab label="REPEATED DEFAULTERS">
+      <div class="headings"> SWIPED LATE </div>
+     
+      <mat-grid-list cols={{cols}} rowHeight="2:2">
+        <ul *ngFor="let mb of ms.mindsList|paginate:{itemsPerPage : 9, currentPage: p}">
+          <mat-grid-tile class="my-grid-tile">
+
+            <div class="maincontainer">
+              <a routerLink ="/home/details/{{mb.Mid}}">
+              <div class="thecard">
+
+                <div class="thefront">
+                  <h3 class="card-header"><img src="https://firebasestorage.googleapis.com/v0/b/attendance-cc2a0.appspot.com/o/minds.png?alt=media&token=ebbb1edf-46a5-4bf2-ad05-3935e030ae55" style="width:140px;height:120px" align="center"></h3>
+                  <div class="card-body">
+                    <p class="card-text"><b>MID: </b>{{mb.Mid}}</p>
+                    <p class="card-text"><b>NAME: </b>{{mb.FirstName}} {{mb.LastName}}</p>
+                    <p class="card-text"><b>LATE SWIPE COUNT: </b>{{mb.LateSwipe}}</p>
+                    <p class="card-text"><b>NOT SWIPE COUNT: </b>{{mb.NotSwipe}}</p>
+
+
+                  </div>
+                </div>
+
+
+                <div class="theback">
+                  <div class="card-backbody">
+                  <p class="card-cm"><b>CAMPUS MINDS </b></p>
+                  <p class="card-det"><b>E-MAIL: </b>{{mb.Email}}</p>
+                  <p class="card-det"><b>PHONE NO.: </b>{{mb.PhoneNo}}</p>
+                  <p class="card-det"><b>GENDER: </b>{{mb.Gender}}</p>
+                  <p class="card-det"><b>ROOM NO.: </b>{{mb.ResidenceString}}</p>
+
+                  <p class="card-cm"><b>LEAD DETAILS </b></p>
+                  <p class="card-det"><b>NAME: </b>{{mb.LeadName}}</p>
+                  <p class="card-det"><b>E-MAIL: </b>{{mb.LeadEmail}}</p>
+                  <p class="card-det"><b>PHONE NO.: </b>{{mb.LeadPhoneNo}}</p>
+
+                  </div>
+                </div>
+
+              </div>
+            </a>
+            </div>
+
+
+
+          </mat-grid-tile>
+        </ul>
+      </mat-grid-list>
+     
+
+                 
+                        
+                
+      
+    <pagination-controls (pageChange)="p=$event" class="page"></pagination-controls>
+     </mat-tab>
+     <mat-tab label="FILTERS">
+      
+<div class="headings"> Filter By : </div><br>
+<div class="subheading">
+
+</div><br>
+
+  <div class="container-fluid">
+      <div class = "row"> 
+          <div class = "col-lg-3 col-md-3 col-sm-3"></div> 
+          <div class = "col-lg-6 col-md-6 col-sm-6">
+  <input type="radio" id="1" name="test" value = "LTD" (click)='OnFilter("1")' [ngModel]="reference1" checked>Last 3 Days  &nbsp;&nbsp;&nbsp; 
+  <input type="radio" id="2" name="test" value = "LWD"(click)='OnFilter("2")' [ngModel]="reference2">Last Week &nbsp;&nbsp;&nbsp;
+  <input type="radio" id="5" name="test" value = "LMD"(click)='OnFilter("5")'[ngModel]="reference3">Last Month &nbsp;&nbsp;&nbsp; 
+  <input type="radio" id="3" name="test" value= "LTMD" (click)='OnFilter("3")' [ngModel]="reference4">Last 3 Months &nbsp;&nbsp;&nbsp; 
+  <input type="radio" id="4" name="test" value = "TD"(click)='OnFilter("4")'[ngModel]="reference5">Threshold &nbsp;&nbsp;&nbsp; 
+  
+  <br>
+  <br> 
+  <button (click)="ExportAsExcel(ms.mindsList)">Export As Excel</button>  
+  
+  </div>
+</div>
+<div class = "col-lg-3 col-md-3 col-sm-3"></div>
+</div>
+
+
+<mat-grid-list cols={{cols}} rowHeight="2:2">
+  <div *ngIf = "ms.cardcount != 0">
+  <ul *ngFor="let mb of ms.mindsList|paginate:{itemsPerPage : 9, currentPage: p}">
+    <mat-grid-tile class="my-grid-tile">
+
+      <div class="maincontainer">
+        <a routerLink ="/home/details/{{mb.Mid}}">
+        <div class="thecard">
+
+          <div class="thefront">
+            <h3 class="card-header"><img src="https://firebasestorage.googleapis.com/v0/b/attendance-cc2a0.appspot.com/o/minds.png?alt=media&token=ebbb1edf-46a5-4bf2-ad05-3935e030ae55" style="width:140px;height:120px" align="center"></h3>
+            <div class="card-body">
+              <p class="card-text"><b>MID: </b>{{mb.Mid}}</p>
+              <p class="card-text"><b>NAME: </b>{{mb.FirstName}} {{mb.LastName}}</p>
+              <p class="card-text"><b>LATE SWIPE COUNT: </b>{{mb.LateSwipe}}</p>
+              <p class="card-text"><b>NOT SWIPE COUNT: </b>{{mb.NotSwipe}}</p>
+
+
+            </div>
+          </div>
+
+
+          <div class="theback">
+            <div class="card-backbody">
+            <p class="card-cm"><b>CAMPUS MINDS </b></p>
+            <p class="card-det"><b>E-MAIL: </b>{{mb.Email}}</p>
+            <p class="card-det"><b>PHONE NO.: </b>{{mb.PhoneNo}}</p>
+            <p class="card-det"><b>GENDER: </b>{{mb.Gender}}</p>
+            <p class="card-det"><b>ROOM NO.: </b>{{mb.ResidenceString}}</p>
+
+            <p class="card-cm"><b>LEAD DETAILS </b></p>
+            <p class="card-det"><b>NAME: </b>{{mb.LeadName}}</p>
+            <p class="card-det"><b>E-MAIL: </b>{{mb.LeadEmail}}</p>
+            <p class="card-det"><b>PHONE NO.: </b>{{mb.LeadPhoneNo}}</p>
+
+            </div>
+          </div>
+
+        </div>
+      </a>
+      </div>
+
+
+
+    </mat-grid-tile>
+  </ul>
+  </div>
+</mat-grid-list>
+
+  
+           
+                  
+          
+
+<pagination-controls (pageChange)="p=$event" class="page"></pagination-controls>
+
+    </mat-tab>
+  </mat-tab-group> 
+</div>
+
+ 
+ 

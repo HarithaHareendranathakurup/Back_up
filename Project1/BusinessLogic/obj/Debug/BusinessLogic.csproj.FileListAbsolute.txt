@@ -1,0 +1,4 @@
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessLogic\bin\Debug\BusinessLogic.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessLogic\bin\Debug\BusinessLogic.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessLogic\obj\Debug\BusinessLogic.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessLogic\obj\Debug\BusinessLogic.pdb

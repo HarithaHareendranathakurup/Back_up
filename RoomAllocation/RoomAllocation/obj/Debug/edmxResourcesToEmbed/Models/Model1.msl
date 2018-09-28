@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AllocationModelStoreContainer" CdmEntityContainer="AllocationEntities">
+    <EntitySetMapping Name="RoomAllocates">
+      <EntityTypeMapping TypeName="AllocationModel.RoomAllocate">
+        <MappingFragment StoreEntitySet="RoomAllocate">
+          <ScalarProperty Name="RId" ColumnName="RId" />
+          <ScalarProperty Name="RoomName" ColumnName="RoomName" />
+          <ScalarProperty Name="Sub" ColumnName="Sub" />
+          <ScalarProperty Name="StartTime" ColumnName="StartTime" />
+          <ScalarProperty Name="EndTime" ColumnName="EndTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

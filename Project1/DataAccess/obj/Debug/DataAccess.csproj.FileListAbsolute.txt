@@ -1,0 +1,4 @@
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataAccess\bin\Debug\DataAccess.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataAccess\bin\Debug\DataAccess.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataAccess\obj\Debug\DataAccess.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataAccess\obj\Debug\DataAccess.pdb

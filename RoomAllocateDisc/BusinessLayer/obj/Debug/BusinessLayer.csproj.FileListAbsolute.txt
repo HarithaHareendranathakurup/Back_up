@@ -1,0 +1,16 @@
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\BusinessLayer.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\BusinessLayer.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\EntityFramework.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\EntityFramework.xml
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\obj\Debug\BusinessLayer.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\obj\Debug\BusinessLayer.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\obj\Debug\BusinessLayer.csprojResolveAssemblyReference.cache
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\DataAccessLayer.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\Entities.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\Entities.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\BusinessLayer\bin\Debug\Entities.dll.config

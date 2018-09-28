@@ -1,0 +1,12 @@
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\obj\Debug\Object.csprojResolveAssemblyReference.cache
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\bin\Debug\Object.exe.config
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\bin\Debug\Object.exe
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\bin\Debug\Object.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\bin\Debug\BusinessObj.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\bin\Debug\Entity.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\bin\Debug\DataObject.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\bin\Debug\BusinessObj.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\bin\Debug\Entity.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\bin\Debug\DataObject.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\obj\Debug\Object.exe
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\Object\obj\Debug\Object.pdb

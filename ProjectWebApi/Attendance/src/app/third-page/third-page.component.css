@@ -1,0 +1,30 @@
+@import"~bootstrap/dist/css/bootstrap.min.css";
+@import"~font-awesome/css/font-awesome.min.css"; 
+
+.my-grid-tile {
+    margin-top: 20px;
+    padding-top: -50px;
+    }  
+    .id{
+        margin-top: 70px;
+        padding-top:-60px;
+    }  
+.container
+{
+    margin-top: 70px;
+    z-index:1;
+    position: absolute;
+}
+.boot
+{
+    background-color:antiquewhite;
+}
+.card
+{
+    width: 200px;
+    /* background-color: lightgrey; */
+}
+.card-header
+{
+    height:100%;
+}

@@ -1,0 +1,6 @@
+c:\users\m1046977\documents\visual studio 2017\Projects\Sorted\Sorted\obj\Debug\Sorted.csprojResolveAssemblyReference.cache
+c:\users\m1046977\documents\visual studio 2017\Projects\Sorted\Sorted\bin\Debug\Sorted.exe.config
+c:\users\m1046977\documents\visual studio 2017\Projects\Sorted\Sorted\bin\Debug\Sorted.exe
+c:\users\m1046977\documents\visual studio 2017\Projects\Sorted\Sorted\bin\Debug\Sorted.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\Sorted\Sorted\obj\Debug\Sorted.exe
+c:\users\m1046977\documents\visual studio 2017\Projects\Sorted\Sorted\obj\Debug\Sorted.pdb

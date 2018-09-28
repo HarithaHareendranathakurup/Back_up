@@ -1,0 +1,10 @@
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\CosmeticEntities\bin\Debug\CosmeticEntities.dll.config
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\CosmeticEntities\bin\Debug\CosmeticEntities.dll
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\CosmeticEntities\bin\Debug\CosmeticEntities.pdb
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\CosmeticEntities\bin\Debug\EntityFramework.dll
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\CosmeticEntities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\CosmeticEntities\bin\Debug\EntityFramework.xml
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\CosmeticEntities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\CosmeticEntities\obj\Debug\CosmeticEntities.csprojResolveAssemblyReference.cache
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\CosmeticEntities\obj\Debug\CosmeticEntities.dll
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\CosmeticStoreApplcn\CosmeticEntities\obj\Debug\CosmeticEntities.pdb

@@ -1,0 +1,15 @@
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\bin\Debug\Entities.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\bin\Debug\EntityFramework.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\bin\Debug\Entities.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\bin\Debug\Entities.dll.config
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\bin\Debug\EntityFramework.xml
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\obj\Debug\DataAccessLayer.csprojResolveAssemblyReference.cache
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.Room.resources
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.Cache

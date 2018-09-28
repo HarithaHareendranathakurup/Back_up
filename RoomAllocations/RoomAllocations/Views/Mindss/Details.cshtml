@@ -1,0 +1,34 @@
+﻿@model RoomAllocations.Models.Mindss
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Mindss</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MindName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MindName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TrackName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TrackName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

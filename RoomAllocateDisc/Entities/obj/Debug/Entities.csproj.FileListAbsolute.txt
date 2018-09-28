@@ -1,0 +1,10 @@
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\Entities\bin\Debug\Entities.dll.config
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\Entities\bin\Debug\Entities.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\Entities\bin\Debug\Entities.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\Entities\bin\Debug\EntityFramework.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\Entities\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\Entities\bin\Debug\EntityFramework.xml
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\Entities\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\Entities\obj\Debug\Entities.csprojResolveAssemblyReference.cache
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\Entities\obj\Debug\Entities.dll
+c:\users\m1046977\documents\visual studio 2017\Projects\RoomAllocateDisc\Entities\obj\Debug\Entities.pdb

@@ -1,0 +1,6 @@
+c:\users\m1046977\documents\visual studio 2017\Projects\Assign5\Assign5\bin\Debug\Assign5.exe.config
+c:\users\m1046977\documents\visual studio 2017\Projects\Assign5\Assign5\bin\Debug\Assign5.exe
+c:\users\m1046977\documents\visual studio 2017\Projects\Assign5\Assign5\bin\Debug\Assign5.pdb
+c:\users\m1046977\documents\visual studio 2017\Projects\Assign5\Assign5\obj\Debug\Assign5.exe
+c:\users\m1046977\documents\visual studio 2017\Projects\Assign5\Assign5\obj\Debug\Assign5.pdb
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Assign5\Assign5\obj\Debug\Assign5.csprojResolveAssemblyReference.cache

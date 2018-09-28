@@ -1,0 +1,38 @@
+﻿@model Student.Models.StudModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete Event</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/loginform.css">
+</head>
+<body>
+    @using (Html.BeginForm("Delete", "Stud", FormMethod.Post))
+    {
+@Html.AntiForgeryToken()
+        <div class="form">
+            <h2>Delete New Event</h2>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                <div>
+                    @Html.Label("Id")
+                    @Html.EditorFor(model => model.Id)
+                </div>
+                <br><br>
+                <div class="button-class">
+                    <input type="submit" value="Delete" class="btn btn-default" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                   @Html.ActionLink("Cancel", "Delete")
+                   
+
+                </div>
+            </div>
+        </div>     
+
+    }
+
+</body>
+</html>
+
+

@@ -1,0 +1,44 @@
+<body>
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport="true"
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="!(isHandset$ | async)">
+    
+    <!-- <mat-toolbar class="tool">ssdd -->
+      <!-- <img src="/assets/nlogo.png"width="190px"> -->
+    <!-- </mat-toolbar> -->
+    <mat-nav-list >
+      <!-- <img src="/assets/images.png"> -->
+      <span class="sp"> AMS </span>
+       <br><br><br><br><br>
+      <a mat-list-item routerLink="./first-page"class="hov">Swiped On Time</a>
+      <a mat-list-item routerLink="./second-page"class="hov">Not Swiped On Time</a>
+      <a mat-list-item routerLink="./third-page"class="hov">Not Swiped</a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+  
+  <mat-sidenav-content class="bg">
+    <mat-toolbar class="toolb">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>
+      <span class="sp">WELCOME TO POSSIBLE</span>
+      <span><a class="Logout"routerLink="#">Logout</a></span>
+    </mat-toolbar>
+    <div class="bd">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+</body>

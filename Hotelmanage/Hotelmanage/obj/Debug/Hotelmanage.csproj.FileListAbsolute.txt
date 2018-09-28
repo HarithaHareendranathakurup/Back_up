@@ -1,0 +1,6 @@
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Hotelmanage\Hotelmanage\bin\Debug\Hotelmanage.exe.config
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Hotelmanage\Hotelmanage\bin\Debug\Hotelmanage.exe
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Hotelmanage\Hotelmanage\bin\Debug\Hotelmanage.pdb
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Hotelmanage\Hotelmanage\obj\Debug\Hotelmanage.csprojResolveAssemblyReference.cache
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Hotelmanage\Hotelmanage\obj\Debug\Hotelmanage.exe
+C:\Users\M1046977\Documents\Visual Studio 2017\Projects\Hotelmanage\Hotelmanage\obj\Debug\Hotelmanage.pdb

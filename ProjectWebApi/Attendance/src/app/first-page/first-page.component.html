@@ -1,0 +1,50 @@
+<div class = "body" (window:resize)="checkWidth()" ></div>
+<mat-grid-list class="id"cols={{cols}} rowHeight="2:2">
+  <!-- <div class="col-md-4"> -->
+      <ul *ngFor="let mb of ms.mindsList">
+  <mat-grid-tile class="my-grid-tile">
+    <!-- <div class="bg">      -->
+        
+      <!-- <div class="maincontainer">
+
+    <div class="thecard">
+
+      <div class="thefront"> -->
+      <div class="card">
+      <h3 class="card-header"><img src="/assets/download.png"style="width:140px;height:140px" align="center"></h3>
+      <div class="card-body"> 
+      <p class="card-text"><b>MID: </b>{{mb.MID}}</p>
+      <p class="card-text"><b>NAME: </b>{{mb.NAME}}</p> 
+      <button type="button" class="btn ">See Profile</button>
+      </div>
+      </div>
+      
+      <!-- </div> 
+      </div>   -->
+    <!-- </div> -->
+      <!-- <div class="theback">
+        <h1>Hi</h1> -->
+      <!-- </div>
+
+      </div>
+    </div>
+   -->
+       
+      
+  
+<!-- <mat-card class="example-card"style="width:200px">
+    <mat-card-content>
+      <p class="card-header"></p>
+      <p class="card-text"><b>MId: </b>{{mb.MID}}</p>
+      <p class="card-text"><b>NAME: </b>{{mb.NAME}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+      <button type="button" class="btn">See Profile</button>
+  </mat-card-actions>
+    </mat-card>
+   -->
+  </mat-grid-tile>
+      </ul>
+  </mat-grid-list>
+
+      

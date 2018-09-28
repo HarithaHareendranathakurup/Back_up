@@ -1,0 +1,9 @@
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessObj\bin\Debug\BusinessObj.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessObj\bin\Debug\BusinessObj.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessObj\obj\Debug\BusinessObj.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessObj\obj\Debug\BusinessObj.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessObj\obj\Debug\BusinessObj.csprojResolveAssemblyReference.cache
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessObj\bin\Debug\DataObject.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessObj\bin\Debug\Entity.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessObj\bin\Debug\DataObject.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\BusinessObj\bin\Debug\Entity.pdb

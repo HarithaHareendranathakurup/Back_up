@@ -1,0 +1,80 @@
+
+.sidenav-container {
+  height: 100%;
+  
+
+
+}
+.tool
+{
+   background-color:blue; 
+  width: 190px;
+  margin-top:100px;
+
+}
+
+.sidenav
+{
+  background-color:#A01F1F;
+  
+}
+
+.Logout
+{
+text-decoration-color: black;
+color: black;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.mat-toolbar.mat-primary {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%  !important;
+}
+.toolb1{
+  background-color:white;
+  font-size: 30px;
+  width:200px;
+}
+.toolb{
+  position: fixed;
+  z-index:5;
+  background-color:#A01F1F;
+  font-size: 30px;
+}
+.pic
+{
+  width:"210px";
+   height:"150px";
+}
+.bg
+{
+  background-color:white;
+}
+.hov:active{
+  background-color: rgba(186, 106, 133, 0.94);
+}
+.sp
+{
+  /* float: left;
+  padding: 15px;  */
+  text-align: center;
+  width: 100%;
+  padding-left: 60px;
+  font-style: bold;
+}
+ .bd{
+  /* background-image: url("/assets/bg.jpg"); */
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  height:100%;
+  /* position:fixed; */
+} 

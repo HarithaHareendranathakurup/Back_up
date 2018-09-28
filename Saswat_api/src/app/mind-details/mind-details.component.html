@@ -1,0 +1,41 @@
+
+  <body>
+    <div class = "body" (window:resize)="checkWidth()" ></div>
+  <div class="card" style="width:a" >
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>
+          <h1>{{mind.FirstName}} {{mind.LastName}}</h1>
+        </mat-card-title>
+        <mat-card-subtitle>
+          <h2>({{mind.Mid}})</h2>
+        </mat-card-subtitle>
+      </mat-card-header>
+      <br/>
+     
+      <h3 class="cmImg">
+          <img [src]="mind.Photograph" alt={{mind.Mid}} *ngIf="(mind.Photograph != null); else noImageFound"  style="width:140px;height:120px"
+           align="center">
+          </h3>
+          <ng-template #noImageFound>
+          <h3 class="cmImg">
+          <img src="_https://firebasestorage.googleapis.com/v0/b/attendance-cc2a0.appspot.com/o/minds.png?alt=media&token=ebbb1edf-46a5-4bf2-ad05-3935e030ae55"
+          style="width:140px;height:120px"  align="center">
+          </h3>
+          </ng-template> 
+      <mat-card-content class="details">
+        
+        &nbsp;Phone Number:{{mind.PhoneNo}}<br>
+        &nbsp;Email: {{mind.Email}}<br>
+        &nbsp;Gender: {{mind.Gender}}<br>
+        
+        &nbsp;Residence: {{mind.ResidenceString}}<br>
+      </mat-card-content>
+    
+        <h3>Number of Late Swipes: {{mind.LateSwipe}}</h3>
+      
+        <h3>Number of No Swipes: {{mind.NotSwipe}}</h3>
+      </mat-card>
+    </div>
+  </body>
+     

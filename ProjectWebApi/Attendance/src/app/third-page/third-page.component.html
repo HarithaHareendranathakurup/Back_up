@@ -1,0 +1,15 @@
+
+<mat-grid-list class="id"cols="3" rowHeight="2:2">
+    <ul *ngFor="let mb of ms.mindsList">
+    <mat-grid-tile class="my-grid-tile"> 
+        <div class="card">
+            <h3 class="card-header"><img src="/assets/download.png"style="width:140px;height:140px" align="center"></h3>
+            <div class="card-body"> 
+            <p class="card-text"><b>MID: </b>{{mb.MID}}</p>
+            <p class="card-text"><b>NAME: </b>{{mb.NAME}}</p> 
+            <button type="button" class="btn ">See Profile</button>
+            </div>
+            </div>
+      </mat-grid-tile>
+    </ul>
+  </mat-grid-list> 

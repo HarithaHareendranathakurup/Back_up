@@ -1,0 +1,7 @@
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataObject\bin\Debug\DataObject.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataObject\bin\Debug\DataObject.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataObject\obj\Debug\DataObject.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataObject\obj\Debug\DataObject.pdb
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataObject\obj\Debug\DataObject.csprojResolveAssemblyReference.cache
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataObject\bin\Debug\Entity.dll
+c:\Users\M1046977\documents\visual studio 2017\Projects\Project1\DataObject\bin\Debug\Entity.pdb
